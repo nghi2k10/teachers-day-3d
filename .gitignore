@@ -1,0 +1,6 @@
+﻿preview-*.png
+letter-*.png
+export-*.png
+__pycache__/
+*.zip
+.vscode
