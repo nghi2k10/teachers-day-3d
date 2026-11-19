@@ -15,9 +15,11 @@ Sau đó mở http://localhost:8080/ .
 
 ## Cá nhân hóa và chia sẻ
 
-1. Mở mục **Cá nhân hóa thiệp** bên dưới phong thư.
+1. Nhấn **Tạo thiệp của bạn** ngay trên đầu trang để tới trang nhập tên `?edit=1`. Mục **Cá nhân hóa thiệp** bên dưới phong thư vẫn sử dụng được.
 2. Nhập tên Thầy/Cô (ví dụ `Cô Lan`) và người gửi (ví dụ `Minh Anh` hoặc `Lớp 12A1`). Tên cập nhật ngay, không cần nút lưu.
 3. Nhấn **Sao chép link thiệp** trong mục cá nhân hóa hoặc cuối thư. Khi người nhận mở link, thiệp tự điền lại tên.
+
+Trang tạo thiệp có nút **Xem thiệp đã cá nhân hóa** để mở URL chứa `to` và `from`. Link gửi cho người nhận không chứa `edit=1`, nên luôn mở phong thư thay vì trang nhập tên. Có thể gửi link `https://nghi2k10.github.io/teachers-day-3d/?edit=1` cho người muốn tự tạo thiệp.
 
 Ví dụ:
 

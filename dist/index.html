@@ -11,8 +11,16 @@
 </head>
 <body>
   <div class="ambient" aria-hidden="true"></div><div id="petals" aria-hidden="true"></div>
-  <header class="topbar"><a class="brand" href="index.html"><span class="brand-flower">✳</span> mùa tri ân<span class="brand-year">2026</span></a><button id="music" class="music" aria-label="Bật nhạc nền" aria-pressed="false"><span aria-hidden="true">♫</span><span id="music-label">Bật nhạc</span></button></header>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-flower">✳</span> mùa tri ân<span class="brand-year">2026</span></a><a id="create-card" class="button primary create-link" href="?edit=1">✎ Tạo thiệp của bạn</a><button id="music" class="music" aria-label="Bật nhạc nền" aria-pressed="false"><span aria-hidden="true">♫</span><span id="music-label">Bật nhạc</span></button></header>
   <main>
+    <section id="card-editor" class="card-editor" hidden aria-labelledby="editor-title">
+      <p class="eyebrow">MỘT LÁ THƯ · MỘT LỜI TRI ÂN</p>
+      <h1 id="editor-title">Viết lời <em>yêu thương</em></h1>
+      <p class="editor-description">Điền tên Thầy/Cô và người gửi để tạo một tấm thiệp dành riêng cho người bạn muốn tri ân.</p>
+      <div id="editor-fields" class="personalizer"></div>
+      <div class="editor-actions"><a id="preview-card" class="button primary" href="?">Xem thiệp đã cá nhân hóa</a><a id="back-card" class="button secondary" href="?">Trở về phong thư</a></div>
+      <p class="personalize-note">Nhấn “Sao chép link thiệp” để gửi. Người nhận sẽ thấy phong thư, không cần điền lại thông tin.</p>
+    </section>
     <section class="intro" id="intro" aria-labelledby="hero-title">
       <p class="eyebrow">NGÀY NHÀ GIÁO VIỆT NAM · 20.11.2026</p>
       <h1 id="hero-title">Một lá thư gửi<br><em>người lái đò</em></h1>
