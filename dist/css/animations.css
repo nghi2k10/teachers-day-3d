@@ -11,3 +11,4 @@
 .bouquet-spark{position:absolute;left:var(--spark-x);top:55%;width:5px;height:5px;border-radius:50%;background:#d4af37;box-shadow:0 0 6px #d4af37;opacity:0;pointer-events:none}
 .bouquet.sparkling .bouquet-spark{animation:bouquetTwinkle 1.4s var(--spark-delay) ease-out both}
 @media(prefers-reduced-motion:reduce){.finale.revealed .bouquet>svg,.finale.revealed .bloom,.bouquet.sparkling .bouquet-spark{animation:none!important}.bouquet-spark{display:none}}
+@keyframes penBlink{50%{opacity:0}}
